@@ -1,0 +1,59 @@
+# Virtual Environment
+autocut/
+venv/
+env/
+.env/
+.venv/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+.pytest_cache/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Project specific
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+!1.jpg
+!sample_images/*.jpg
+!sample_images/*.png
+model_cache/
+*.log
+temp/
+output/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyTorch
+*.pth
+*.pt
+*.bin
+
+# Hugging Face
+.cache/
