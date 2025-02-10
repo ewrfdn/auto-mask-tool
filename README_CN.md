@@ -30,3 +30,26 @@
 - 其他依赖见 `requirements.txt`
 
 ## 使用方法
+
+## 安装说明
+
+### Windows
+```bash
+# 克隆仓库
+git clone https://github.com/yourusername/autocut.git
+cd autocut
+
+# 运行安装脚本
+install.bat
+```
+
+### Linux/Mac
+```bash
+# 克隆仓库
+git clone https://github.com/yourusername/autocut.git
+cd autocut
+
+# 运行安装脚本
+chmod +x install.sh
+./install.sh
+```

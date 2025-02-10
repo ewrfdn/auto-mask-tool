@@ -30,7 +30,7 @@ def preprocess_image(im: np.ndarray, model_input_size: list) -> torch.Tensor:
     image = normalize(image,[0.5,0.5,0.5],[1.0,1.0,1.0])
     return image
 
-def postprocess_image(result: torch.Tensor, im_size: list, threshold=0.3, edge_hardness=0.95)-> np.ndarray:
+def postprocess_image(result: torch.Tensor, im_size: list, threshold=0.1, edge_hardness=0.95)-> np.ndarray:
     result = torch.squeeze(F.interpolate(result, size=im_size, mode='bilinear'), 0)
     ma = torch.max(result)
     mi = torch.min(result)
