@@ -18,7 +18,6 @@ fi
 source "$ENV_PATH/bin/activate"
 
 # Run the main script
-echo "Starting AutoCut..."
 python "${ENV_PATH}/../src/autocut.py" "$@"
 
 # Deactivate virtual environment

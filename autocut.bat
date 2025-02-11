@@ -20,7 +20,6 @@ REM Activate virtual environment
 call "%ENV_PATH%\Scripts\activate.bat"
 
 REM Run the main script
-echo Starting AutoCut...
 
 python "%ENV_PATH%\..\src\autocut.py" %*
 

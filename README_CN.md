@@ -30,7 +30,15 @@
 - 其他依赖见 `requirements.txt`
 
 ## 使用方法
+```bash
+    # process file
+    autocut -i image.jpg                    
+    autocut -i image.jpg -s output.png      
 
+    # process folder
+    autocut -d input_folder                
+    autocut -d input_folder -o output_dir   
+```
 ## 安装说明
 
 ### Windows

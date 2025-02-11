@@ -40,11 +40,14 @@ chmod +x install.sh
    - Linux/MacOS: `./init.sh`
 3. Run the tool:
    ```bash
-   # Windows
-   autocut -i 1.jpg -o out.png
+   # process file
+    autocut -i image.jpg                    
+    autocut -i image.jpg -s output.png      
+
+    # process folder
+    autocut -d input_folder                
+    autocut -d input_folder -o output_dir   
    
-   # Linux/MacOS
-   ./autocut.sh -i 1.jpg -o out.png
    ```
 
 ## Requirements
